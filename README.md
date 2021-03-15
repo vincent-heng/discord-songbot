@@ -15,8 +15,7 @@ cp config-sample.json config.json
 vi config.json
 ```
 
-- Run it with Docker.
+- Run it with docker compose.
 ```
-docker build . -t songbot:latest
-docker run songbot:latest
+docker-compose up -d
 ```
